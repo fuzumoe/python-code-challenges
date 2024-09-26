@@ -4,7 +4,8 @@
         "REENE"
     ],
     "files.exclude": {
-        "**/.git": false
+        "**/.git": false,
+        "**/.venv": false
     },
     "terminal.integrated.profiles.windows": {
         "Git Bash": {

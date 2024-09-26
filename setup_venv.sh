@@ -8,10 +8,10 @@ then
 fi
 
 # Create a virtual environment
-python3 -m venv .venv
+python3 -m venv venv
 
 # Activate the virtual environment
-source .venv/bin/activate
+source venv/bin/activate
 
 # Upgrade pip
 pip install --upgrade pip
@@ -21,4 +21,4 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 echo "Python virtual environment is created, packages are installed, and requirements.txt is generated."
-echo "To activate the virtual environment, use: source .venv/bin/activate"
+echo "To activate the virtual environment, use: source venv/bin/activate"

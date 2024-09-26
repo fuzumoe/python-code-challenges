@@ -8,10 +8,10 @@ if %errorlevel% neq 0 (
 )
 
 :: Create a virtual environment
-python -m venv .venv
+python -m venv venv
 
 :: Activate the virtual environment
-call .venv\Scripts\activate
+call venv\Scripts\activate
 
 :: Upgrade pip
 pip install --upgrade pip
@@ -20,4 +20,4 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 echo Python virtual environment is created, packages are installed, and requirements.txt is generated.
-echo To activate the virtual environment, use: .venv\Scripts\activate
+echo To activate the virtual environment, use: venv\Scripts\activate
