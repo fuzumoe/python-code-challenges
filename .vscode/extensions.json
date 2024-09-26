@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "shd101wyy.markdown-preview-enhanced",
+        "yzhang.markdown-all-in-one",
+        "akamud.vscode-theme-onedark",
+        "ms-azuretools.vscode-docker",
+        "vscode-icons-team.vscode-icons",
+        "emmanuelbeziat.vscode-great-icons",
+        "file-icons.file-icons",
+        "ms-vscode.live-server",
+        "GrapeCity.gc-excelviewer",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+    ]
+}
