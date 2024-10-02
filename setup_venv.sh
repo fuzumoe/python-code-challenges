@@ -6,7 +6,7 @@ then
     echo "Python3 is not installed. Please install it before running this script."
     exit
 fi
-
+sudo  apt install python3.12-venv -y
 # Create a virtual environment
 python3 -m venv venv
 
